@@ -29,8 +29,15 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: inline;
 }
 
 .hero p {
@@ -53,5 +60,15 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
+  padding: 18px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--default-font-family);
   padding: 18px 30px;
 }
