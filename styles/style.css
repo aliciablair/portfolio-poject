@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #C9CCCE;
-  --secondary-color: #8A9791;
+  --branding-color: #c9ccce;
+  --secondary-color: #8a9791;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -27,10 +27,11 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 44px;
 }
 
 p {
@@ -81,4 +82,17 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero p, h2 {
+    font-size: 24px;
+  }
+  
+  h1 {
+    font-size: 44px;
+  }
 }
+ 
