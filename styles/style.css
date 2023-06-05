@@ -50,7 +50,7 @@ p {
   color: #272142;
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -93,6 +93,7 @@ p {
   
   h1 {
     font-size: 44px;
+    line-height: 2;
   }
 }
  
