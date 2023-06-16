@@ -14,7 +14,7 @@ body {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 h1,
@@ -36,7 +36,7 @@ h2 {
   font-size: 44px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -222,14 +222,20 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.open-sourced a {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+}
+
+.open-sourced a:hover {
+  color: black;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
@@ -252,11 +258,15 @@ footer .social-links a:hover {
     line-height: 2;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
   nav {
     justify-content: center;
+  }
+
+  .open-sourced {
+    font-size: 13px;
   }
 }
